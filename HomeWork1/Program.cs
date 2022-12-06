@@ -4,25 +4,32 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-// Console.WriteLine("Введите первое число");
+Console.WriteLine("Введите первое число");
 
-// int number1 = int.Parse(Console.ReadLine());
+int number1 = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Введите второе число");
+Console.WriteLine("Введите второе число");
 
-// int number2 = int.Parse(Console.ReadLine());
+int number2 = int.Parse(Console.ReadLine());
 
-// if (number1 > number2)
-// {
-//     Console.Write("max = ");
-//     Console.WriteLine(number1);
-// }
-// else
-// {
-//     Console.Write("max = ");
-//     Console.WriteLine(number2);
-// }
+if (number1 == number2)
+{
+    Console.WriteLine("Числа равны");
+}
 
+else 
+{
+    if (number1 > number2)
+    {
+        Console.Write("max = ");
+        Console.WriteLine(number1);
+    }
+    else
+    {
+        Console.Write("max = ");
+        Console.WriteLine(number2);
+    }
+}
 
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
