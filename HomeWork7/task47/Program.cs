@@ -8,7 +8,7 @@ try
 {
     int m = ReadInt("Введите m");
     int n = ReadInt("Введите n");
-    double[,] array = Create2DArray(m,n);
+    double[,] array = Create2DDoubleArray(m,n);
     Print2DArray(array);
 
 }
@@ -34,7 +34,7 @@ void Print2DArray(double[,] array)
     }
 }
 
-double[,] Create2DArray(int m, int n)
+double[,] Create2DDoubleArray(int m, int n)
 {
     double[,] array = new double[m,n];
 
